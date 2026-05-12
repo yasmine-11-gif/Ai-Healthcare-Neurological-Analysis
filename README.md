@@ -25,29 +25,33 @@ The platform combines Artificial Intelligence, Deep Learning, Computer Vision, M
 ## Tech Stack
 
 ### Frontend
-- React
-- TanStack Start
-- Vite
-- TypeScript
-- npm
+
+* React
+* TanStack Start
+* Vite
+* TypeScript
+* npm
 
 ### Backend
-- Django
-- Django REST Framework
-- Python
-- Django ORM
-- SQLite (development database)
+
+* Django
+* Django REST Framework
+* Python
+* Django ORM
+* SQLite (development database)
 
 ### AI / Machine Learning
-- Scikit-learn models (`.pkl`)
-- PyTorch for Axis 4 brain aging
-- Grad-CAM / SHAP for explainability
-- Mock AI outputs for demo-ready axes
+
+* Scikit-learn models (`.pkl`)
+* PyTorch for Axis 4 brain aging
+* Grad-CAM / SHAP for explainability
+* Mock AI outputs for demo-ready axes
 
 ### Other Tools
-- GitHub
-- PowerShell script for local development (`dev-all.ps1`)
-- cURL for API testing
+
+* GitHub
+* PowerShell script for local development (`dev-all.ps1`)
+* cURL for API testing
 
 ---
 
@@ -99,3 +103,44 @@ src/
 assets/
 datasets/
 models/
+```
+
+---
+
+## Getting Started
+
+### Frontend
+
+```bash
+npm install
+npm run dev
+```
+
+### Backend
+
+```bash
+cd backend
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver 0.0.0.0:8000
+```
+
+### Run both on Windows
+
+```powershell
+.\dev-all.ps1
+```
+
+---
+
+## Keywords
+
+Artificial Intelligence, Deep Learning, Healthcare AI, MRI Analysis, fMRI, EEG, Computer Vision, Explainable AI, Neurology, Medical Imaging, React, Django, Django REST Framework, PyTorch, Scikit-learn, Vite, TypeScript.
+
+---
+
+## Acknowledgments
+
+This project was developed at **Esprit School of Engineering** with academic supervision and collaboration with **Razi Hospital**.
