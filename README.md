@@ -85,6 +85,47 @@ EEG and fMRI network instability analysis for epilepsy vulnerability detection.
 
 ---
 
+## Directory Structure
+
+```bash
+backend/
+├── axis1_alzheimer_dementia/
+├── axis2_parkinson_atypical/
+├── axis3_cerebellar_dysfunction/
+├── axis4_brain_aging/
+├── axis5_functional_connectivity/
+├── axis6_neuromotor_video/
+├── axis7_epilepsy_network/
+
+frontend/
+datasets/
+models/
+docker/
+kubernetes/
+```
+
+---
+
+## Getting Started
+
+### Backend
+
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
 ## Keywords
 
 Artificial Intelligence, Deep Learning, Healthcare AI, MRI Analysis, fMRI, EEG, Computer Vision, Explainable AI, Neurology, Medical Imaging, TensorFlow, PyTorch, FastAPI, React, Flutter.
