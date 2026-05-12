@@ -6,7 +6,6 @@ This project was developed at **Esprit School of Engineering** in collaboration 
 
 The platform combines Artificial Intelligence, Deep Learning, Computer Vision, MRI analysis, fMRI connectivity analysis, EEG processing, and neuromotor video analysis to detect hidden neurological abnormalities and support medical interpretation.
 
-
 ---
 
 ## Features
@@ -36,7 +35,8 @@ The platform combines Artificial Intelligence, Deep Learning, Computer Vision, M
 - Django
 - Django REST Framework
 - Python
-- SQLite / Django ORM
+- Django ORM
+- SQLite (development database)
 
 ### AI / Machine Learning
 - Scikit-learn models (`.pkl`)
@@ -48,6 +48,7 @@ The platform combines Artificial Intelligence, Deep Learning, Computer Vision, M
 - GitHub
 - PowerShell script for local development (`dev-all.ps1`)
 - cURL for API testing
+
 ---
 
 ## AI Axes
@@ -94,41 +95,7 @@ backend/
 ├── axis6_neuromotor_video/
 ├── axis7_epilepsy_network/
 
-frontend/
+src/
+assets/
 datasets/
 models/
-docker/
-kubernetes/
-```
-
----
-
-## Getting Started
-
-### Backend
-
-```bash
-cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
-```
-
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-```
-
----
-
-## Keywords
-
-Artificial Intelligence, Deep Learning, Healthcare AI, MRI Analysis, fMRI, EEG, Computer Vision, Explainable AI, Neurology, Medical Imaging, TensorFlow, PyTorch, FastAPI, React, Flutter.
-
----
-
-## Acknowledgments
-
-This project was developed at **Esprit School of Engineering** with academic supervision and collaboration with Razi Hospital.
