@@ -54,7 +54,7 @@ The platform combines Artificial Intelligence, Deep Learning, Computer Vision, M
 
 ## AI Axes
 
-### Axis 1 — Alzheimer’s vs Other Dementias
+### Axis 1 — Alzheimer’s vs Healthy Subjects
 
 MRI-based AI analysis for Alzheimer-like structural abnormalities.
 
