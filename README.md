@@ -26,30 +26,28 @@ The platform combines Artificial Intelligence, Deep Learning, Computer Vision, M
 ## Tech Stack
 
 ### Frontend
-
-* React
-* Flutter
-* HTML
-* CSS
-* JavaScript
+- React
+- TanStack Start
+- Vite
+- TypeScript
+- npm
 
 ### Backend
+- Django
+- Django REST Framework
+- Python
+- SQLite / Django ORM
 
-* FastAPI
-* Python
-* TensorFlow
-* PyTorch
-* Scikit-learn
+### AI / Machine Learning
+- Scikit-learn models (`.pkl`)
+- PyTorch for Axis 4 brain aging
+- Grad-CAM / SHAP for explainability
+- Mock AI outputs for demo-ready axes
 
 ### Other Tools
-
-* Docker
-* Kubernetes
-* MongoDB
-* GitHub
-* Computer Vision
-* Deep Learning
-
+- GitHub
+- PowerShell script for local development (`dev-all.ps1`)
+- cURL for API testing
 ---
 
 ## AI Axes
