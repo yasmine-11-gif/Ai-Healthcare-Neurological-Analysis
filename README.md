@@ -2,11 +2,10 @@
 
 ## Overview
 
-This project was developed as part of an integrated Artificial Intelligence healthcare project at **Esprit School of Engineering** in collaboration with Razi Hospital.
+This project was developed at **Esprit School of Engineering** in collaboration with **Razi Hospital** as part of an AI healthcare research and innovation initiative focused on neurological disorder analysis.
 
 The platform combines Artificial Intelligence, Deep Learning, Computer Vision, MRI analysis, fMRI connectivity analysis, EEG processing, and neuromotor video analysis to detect hidden neurological abnormalities and support medical interpretation.
 
-The project explores explainable healthcare AI approaches for neurological disorder analysis using multimodal medical data.
 
 ---
 
