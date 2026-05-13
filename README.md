@@ -51,8 +51,6 @@ The backend is organized into one application per neurological axis. Each team m
 * Django
 * Django REST Framework
 * Python
-* Django ORM
-* SQLite (development database)
 
 ### AI / Machine Learning
 
@@ -73,11 +71,11 @@ The backend is organized into one application per neurological axis. Each team m
 
 | Axis   | Description                          | Data Type    | Folder                                   |
 | ------ | ------------------------------------ | ------------ | ---------------------------------------- |
-| Axis 1 | Alzheimer's vs Other Dementias       | MRI          | `backend/axis1_alzheimer_dementia/`      |
+| Axis 1 | Alzheimer's vs Healthy Subjects       | MRI          | `backend/axis1_alzheimer_dementia/`      |
 | Axis 2 | Parkinson's vs Atypical Parkinsonism | MRI          | `backend/axis2_parkinson_atypical/`      |
 | Axis 3 | Cerebellar Dysfunction               | MRI          | `backend/axis3_cerebellar_dysfunction/`  |
 | Axis 4 | Uneven Brain Aging                   | MRI          | `backend/axis4_brain_aging/`             |
-| Axis 5 | Functional Connectivity              | fMRI         | `backend/axis5_functional_connectivity/` |
+| Axis 5 | Hidden Cognitive Effort              | fMRI         | `backend/axis5_functional_connectivity/` |
 | Axis 6 | Neuromotor Video                     | Video        | `backend/axis6_neuromotor_video/`        |
 | Axis 7 | Epilepsy Vulnerability               | EEG / Signal | `backend/axis7_epilepsy_network/`        |
 
